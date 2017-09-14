@@ -14,13 +14,6 @@ public class SetOfIncredient {
 		incredients = new ArrayList<String>(Arrays.asList(s));
 	}
 
-	public static void main(String[] args) {
-		SetOfIncredient set1 = new SetOfIncredient("{1,2,34,5,7}");
-		System.out.println(set1.maxIndex());
-			
-		
-	}
-
 	public String getIncredient(int index){
 		return incredients.get(index);
 	}
